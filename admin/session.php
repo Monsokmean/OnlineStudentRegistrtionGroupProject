@@ -52,7 +52,7 @@ if (strlen($_SESSION['alogin']) === 0) {
                 <div class="col-md-3"></div>
                 <div class="col-md-6">
                     <div class="panel panel-default">
-                        <div class="panel-heading">
+                        <div class="panel-heading badge bg-primary text-wrap text-uppercase fs-5 font-monospace d-flex justify-content-center">
                             Session
                         </div>
                         <font color="green"
@@ -61,12 +61,12 @@ if (strlen($_SESSION['alogin']) === 0) {
 
                         <div class="panel-body">
                             <form name="session" method="post">
-                                <div class="form-group">
-                                    <label for="session">Create Session </label>
-                                    <input type="text" class="form-control" id="sesssion" name="sesssion"
+                                <div class="form-group ">
+                                    <label for="session" class="mt-3">Create Session </label>
+                                    <input type="text" class="form-control mt-3" id="sesssion" name="sesssion"
                                            placeholder="Session"/>
                                 </div>
-                                <button type="submit" name="submit" class="btn btn-info">Create</button>
+                                <button type="submit" name="submit" class="btn btn-info mt-3">Create</button>
                             </form>
                         </div>
                     </div>
@@ -78,7 +78,7 @@ if (strlen($_SESSION['alogin']) === 0) {
             <div class="col-md-12">
 
                 <div class="panel panel-default">
-                    <div class="panel-heading">
+                    <div class="panel-heading badge bg-primary text-wrap text-uppercase fs-5 font-monospace d-flex justify-content-center mt-5">
                         Manage Session
                     </div>
 

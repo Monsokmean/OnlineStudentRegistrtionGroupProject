@@ -73,32 +73,30 @@ if (strlen($_SESSION['alogin']) === 0) {
                 <div class="col-md-3"></div>
                 <div class="col-md-6">
                     <div class="panel panel-default">
-                        <div class="panel-heading">
-                            Change Password
-                        </div>
+
                         <font color="green"
                               align="center"><?php echo htmlentities($_SESSION['msg']); ?><?php echo htmlentities($_SESSION['msg'] = ""); ?></font>
 
 
-                        <div class="panel-body">
+                        <div class="panel-body ">
                             <form name="chngpwd" method="post" onSubmit="return valid();">
-                                <div class="form-group">
+                                <div class="form-group mt-3">
                                     <label for="exampleInputPassword1">Current Password</label>
                                     <input type="password" class="form-control" id="exampleInputPassword1" name="cpass"
                                            placeholder="Password"/>
                                 </div>
-                                <div class="form-group">
+                                <div class="form-group mt-3">
                                     <label for="exampleInputPassword1">New Password</label>
                                     <input type="password" class="form-control" id="exampleInputPassword2"
                                            name="newpass" placeholder="Password"/>
                                 </div>
-                                <div class="form-group">
+                                <div class="form-group mt-3">
                                     <label for="exampleInputPassword1">Confirm Password</label>
                                     <input type="password" class="form-control" id="exampleInputPassword3"
                                            name="cnfpass" placeholder="Password"/>
                                 </div>
 
-                                <button type="submit" name="submit" class="btn btn-warning">Change</button>
+                                <button type="submit" name="submit" class="btn btn-warning mt-3">Change</button>
                                 <hr/>
 
                             </form>
