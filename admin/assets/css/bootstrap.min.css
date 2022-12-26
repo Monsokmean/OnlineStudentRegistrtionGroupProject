@@ -4395,6 +4395,15 @@ fieldset:disabled .btn {
     align-items: center
 }
 
+/* User define animate */
+#menu-top .nav-item :hover
+{
+    background-color: white;
+    color: #000;
+    transition: .5s;
+    border-radius: 10px;
+}
+
 .navbar-toggler {
     padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
     font-size: var(--bs-navbar-toggler-font-size);
