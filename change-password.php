@@ -104,7 +104,7 @@ if (strlen($_SESSION['login']) == 0) {
                       placeholder="Password" />
                   </div>
 
-                  <button type="submit" name="submit" class="btn btn-default">Submit</button>
+                  <button type="submit" name="submit" class="btn btn-outline-danger">Submit</button>
                   <hr />
 
 
