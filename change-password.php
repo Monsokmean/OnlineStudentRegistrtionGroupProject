@@ -62,7 +62,7 @@ if (strlen($_SESSION['login']) == 0) {
   <body>
     <?php include('includes/header.php'); ?>
 
-    <?php if ($_SESSION['login'] != "") {
+    <?php if ($_SESSION['login'] !== "") {
     include('includes/menubar.php');
   }
   ?>
@@ -82,7 +82,8 @@ if (strlen($_SESSION['login']) == 0) {
                 Change Password
               </div>
               <font color="green" align="center">
-                <?php echo htmlentities($_SESSION['msg']); ?><?php echo htmlentities($_SESSION['msg'] = ""); ?>
+                <?php echo htmlentities($_SESSION['msg']); ?>
+                <?php echo htmlentities($_SESSION['msg'] = ""); ?>
               </font>
 
 
