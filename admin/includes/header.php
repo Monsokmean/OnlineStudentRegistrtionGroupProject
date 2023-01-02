@@ -20,7 +20,7 @@ error_reporting(0);
         </div>
 
         <div class="left-div" >
-            <i class="fa fa-user-secret login-icon register_icon"></i>
+            <i class="fa-solid fa-screwdriver-wrench" style="font-size: 200%"></i>
         </div>
     </div>
 </div>
