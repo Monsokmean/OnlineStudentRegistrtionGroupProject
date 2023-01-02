@@ -74,8 +74,10 @@ if (strlen($_SESSION['alogin']) === 0) {
                 <div class="col-md-6">
                     <div class="panel panel-default">
 
-                        <font color="green"
-                              align="center"><?php echo htmlentities($_SESSION['msg']); ?><?php echo htmlentities($_SESSION['msg'] = ""); ?></font>
+                        <font color="green" align="center">
+                            <?php echo htmlentities($_SESSION['msg']); ?>
+                            <?php echo htmlentities($_SESSION['msg'] = ""); ?>
+                        </font>
 
 
                         <div class="panel-body ">
