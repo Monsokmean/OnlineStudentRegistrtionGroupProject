@@ -70,7 +70,7 @@ exit();
                         <button type="submit" name="submit" class="btn btn-info"><span class="glyphicon glyphicon-user"></span> &nbsp;Log Me In </button>&nbsp;
                 </div>
                 </form>
-                <!-- <div class="col-md-6"> -->
+                <!-- <div class="col-md-6">
                     <div class="alert alert-info">
                         This is a free bootstrap admin template with basic pages you need to craft your project. 
                         Use this template for free to use for personal and commercial use.
@@ -92,7 +92,7 @@ exit();
                         </ul>
                        
                     </div>
-                                    </div>
+                </div> -->
 
             </div>
         </div>
