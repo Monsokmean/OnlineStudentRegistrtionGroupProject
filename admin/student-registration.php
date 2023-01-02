@@ -42,7 +42,6 @@ if (strlen($_SESSION['alogin']) == 0) {
 
     <div class="content-wrapper">
         <div class="container">
-            <div class="row">
                 <div class="col-md-12">
                     <h1 class="page-head-line">Student Registration </h1>
                 </div>
@@ -80,7 +79,7 @@ if (strlen($_SESSION['alogin']) == 0) {
                                                placeholder="Enter password" required/>
                                     </div>
 
-                                    <button type="submit" name="submit" id="submit" class="btn btn-danger mt-3">Submit</button>
+                                    <button type="submit" name="submit" id="submit" class="btn btn-outline-danger">Submit</button>
                                 </form>
                             </div>
                         </div>
