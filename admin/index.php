@@ -42,6 +42,13 @@ if (isset($_POST['submit'])) {
     <link href="assets/css/bootstrap.min.css" rel="stylesheet"/>
     <link href="assets/css/font-awesome.css" rel="stylesheet"/>
     <link href="assets/css/style.css" rel="stylesheet"/>
+    <script src="https://kit.fontawesome.com/55c193e227.js" crossorigin="anonymous"></script>
+    <style>
+        body{
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
+
 </head>
 <body>
 <?php include('includes/header.php'); ?>
@@ -50,7 +57,6 @@ if (isset($_POST['submit'])) {
         <div class="row">
             <div class="col-md-12">
                 <h4 class="page-head-line">Please Login Your Account </h4>
-
             </div>
 
         </div>
@@ -58,12 +64,12 @@ if (isset($_POST['submit'])) {
         <div class="card center-block" style="width: 50rem;">
             <div class="card-body">
                 <form name="admin" method="post">
-                    <label>Enter Username : </label>
+                    <label class="fw-bold">Enter Username : </label>
                     <input type="text" name="username" class="form-control" required/>
-                    <label>Enter Password : </label>
+                    <label class="fw-bold mt-3">Enter Password : </label>
                     <input type="password" name="password" class="form-control" required/>
                     <hr/>
-                    <button type="submit" name="submit" class="btn btn-info"><span
+                    <button type="submit" name="submit" class="btn btn-info fw-bold" style="border-radius: 10px; --bs-btn-hover-bg:#eeff06 "><span
                                 class="glyphicon glyphicon-user"></span> &nbsp;Log Me In
                     </button>&nbsp;
                 </form>

@@ -50,6 +50,11 @@ if (isset($_POST['submit'])) {
     <link href="assets/css/bootstrap.min.css" rel="stylesheet"/>
     <link href="../assets/css/font-awesome.css" rel="stylesheet"/>
     <link href="../assets/css/style.css" rel="stylesheet"/>
+    <style>
+        body{
+            font-family: 'Roboto Slab', sans-serif
+        }
+    </style>
 </head>
 <script type="text/javascript">
     function valid() {
@@ -90,11 +95,11 @@ if (isset($_POST['submit'])) {
         <div class="card center-block" style="width: 50rem;">
             <div class="card-body">
                 <form name="admin" method="post" onsubmit ="return valid();">
-                    <label>Enter Username : </label>
+                    <label class="fw-bold">Enter Username : </label>
                     <input type="text" name="username" class="form-control" name  = "cpass" required/>
-                    <label>Enter Password : </label>
+                    <label class="fw-bold mt-3">Enter Password : </label>
                     <input type="password" name="password" class="form-control" name="newpass" required/>
-                    <label>Enter Confirm Password : </label>
+                    <label class="fw-bold mt-3">Enter Confirm Password : </label>
                     <input type="password" name="cpassword" class="form-control" name="cnfpass" required/>
                     <hr/>
                     <button type="submit" name="submit" class="btn btn-info"><span
