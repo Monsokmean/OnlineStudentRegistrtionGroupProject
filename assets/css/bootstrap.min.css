@@ -1246,7 +1246,9 @@ progress {
 
     .col-md-6 {
         flex: 0 0 auto;
-        width: 50%
+        width: 80%;
+        /* User define code */
+        margin: 0 auto;
     }
 
     .col-md-7 {
