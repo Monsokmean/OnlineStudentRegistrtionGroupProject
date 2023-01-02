@@ -4828,6 +4828,7 @@ fieldset:disabled .btn {
     border-radius: var(--bs-card-border-radius);
     /* make card center page */
     margin: 0 auto;
+    /**/
 }
 
 .card>hr {
