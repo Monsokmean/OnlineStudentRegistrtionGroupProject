@@ -35,7 +35,7 @@ $_SESSION['msg']="Current Password not match !!";
     <meta name="description" content="" />
     <meta name="author" content="" />
     <title>Admin | Student Password</title>
-    <link href="assets/css/bootstrap.css" rel="stylesheet" />
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
     <link href="assets/css/font-awesome.css" rel="stylesheet" />
     <link href="assets/css/style.css" rel="stylesheet" />
 </head>
