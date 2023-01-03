@@ -52,6 +52,7 @@ if (isset($_POST['submit'])) {
             <div class="row">
                 <div class="col-md-12">
                     <h4 class="page-head-line">Please Login To Enter </h4>
+                    <!-- Test Remote -->
                 </div>
 
             </div>
