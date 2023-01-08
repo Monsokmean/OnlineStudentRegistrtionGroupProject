@@ -61,7 +61,7 @@ if (isset($_POST['submit'])) {
 
         </div>
         <span style="color:red;"><?php echo htmlentities($_SESSION['errmsg']); ?><?php echo htmlentities($_SESSION['errmsg'] = ""); ?></span>
-        <div class="card center-block" style="width: 50rem;">
+        <div class="card center-block" style="width: 50rem;box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;">
             <div class="card-body">
                 <form name="admin" method="post">
                     <label class="fw-bold">Enter Username : </label>

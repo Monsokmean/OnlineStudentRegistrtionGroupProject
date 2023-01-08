@@ -79,30 +79,32 @@ if (strlen($_SESSION['alogin']) === 0) {
                             <?php echo htmlentities($_SESSION['msg'] = ""); ?>
                         </font>
 
+                        <div class="card">
+                            <div class="card-body " style="box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;">
+                                <form name="chngpwd" method="post" onSubmit="return valid();">
+                                    <div class="form-group mt-3">
+                                        <label for="exampleInputPassword1">Current Password</label>
+                                        <input type="password" class="form-control" id="exampleInputPassword1" name="cpass"
+                                               placeholder="Password"/>
+                                    </div>
+                                    <div class="form-group mt-3">
+                                        <label for="exampleInputPassword1">New Password</label>
+                                        <input type="password" class="form-control" id="exampleInputPassword2"
+                                               name="newpass" placeholder="Password"/>
+                                    </div>
+                                    <div class="form-group mt-3">
+                                        <label for="exampleInputPassword1">Confirm Password</label>
+                                        <input type="password" class="form-control" id="exampleInputPassword3"
+                                               name="cnfpass" placeholder="Password"/>
+                                    </div>
 
-                        <div class="panel-body ">
-                            <form name="chngpwd" method="post" onSubmit="return valid();">
-                                <div class="form-group mt-3">
-                                    <label for="exampleInputPassword1">Current Password</label>
-                                    <input type="password" class="form-control" id="exampleInputPassword1" name="cpass"
-                                           placeholder="Password"/>
-                                </div>
-                                <div class="form-group mt-3">
-                                    <label for="exampleInputPassword1">New Password</label>
-                                    <input type="password" class="form-control" id="exampleInputPassword2"
-                                           name="newpass" placeholder="Password"/>
-                                </div>
-                                <div class="form-group mt-3">
-                                    <label for="exampleInputPassword1">Confirm Password</label>
-                                    <input type="password" class="form-control" id="exampleInputPassword3"
-                                           name="cnfpass" placeholder="Password"/>
-                                </div>
+                                    <button type="submit" name="submit" class="btn btn-warning mt-3">Change</button>
+                                    <hr/>
 
-                                <button type="submit" name="submit" class="btn btn-warning mt-3">Change</button>
-                                <hr/>
-
-                            </form>
+                                </form>
+                            </div>
                         </div>
+
                     </div>
                 </div>
 

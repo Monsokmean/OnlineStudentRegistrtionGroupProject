@@ -81,7 +81,7 @@ if (strlen($_SESSION['alogin']) == 0) {
 
                 <div class="panel panel-default">
                     <div class="panel-heading badge bg-success text-wrap text-uppercase fs-5 font-monospace d-flex justify-content-center mt-5">
-                        Manage Session
+                        Manage Department
                     </div>
 
                     <div class="panel-body">
