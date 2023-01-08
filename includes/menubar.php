@@ -8,7 +8,7 @@
     <link href="assets/css/font-awesome.css" rel="stylesheet"/>
     <link href="assets/css/style.css" rel="stylesheet"/>
     <style>
-        /* CSS */
+
         .changepassword_button {
             color: #fff;
             padding: 15px 25px;
