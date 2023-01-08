@@ -86,7 +86,7 @@ if (strlen($_SESSION['login']) === 0) {
                 <?php echo htmlentities($_SESSION['msg'] = ""); ?>
               </font>
                 <div class="card">
-                    <div class="card-body">
+                    <div class="card-body" style="box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;">
                         <form name="chngpwd" method="post" onSubmit="return valid();">
                             <div class="form-group">
                                 <label for="exampleInputPassword1" class="mt-3 font-monospace fw-bold card-title">Current Password</label>

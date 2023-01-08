@@ -63,9 +63,6 @@
                     <a class='nav-link active' aria-current= 'page' href='my-profile.php'>My Profile  </a>
                 </li>
                 <li class='nav-item'>
-                    <a class='nav-link active' aria-current= 'page' href='my-profile.php'>My Profile  </a>
-                </li>
-                <li class='nav-item'>
                     <a class='nav-link active' aria-current= 'page' href='change-password.php'>Change Password </a>
                 </li>
                 <li class='nav-item'>
