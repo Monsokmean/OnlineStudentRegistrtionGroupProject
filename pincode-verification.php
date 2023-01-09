@@ -4,7 +4,7 @@ include('includes/config.php');
 if (strlen($_SESSION['login']) == 0) {
     header('location:index.php');
 } else {
-    date_default_timezone_set('Asia/Kolkata');// change according timezone
+    date_default_timezone_set('Asia/Phnom_Penh');// change according timezone
     $currentTime = date('d-m-Y h:i:s A', time());
     if (isset($_POST['submit'])) {
         $sql = mysqli_query($bd, "SELECT * FROM  students where pincode='" . trim($_POST['pincode']) . "' && StudentRegno='" . $_SESSION['login'] . "'");
