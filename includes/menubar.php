@@ -8,7 +8,7 @@
     <link href="assets/css/font-awesome.css" rel="stylesheet"/>
     <link href="assets/css/style.css" rel="stylesheet"/>
     <style>
-        /* CSS */
+
         .changepassword_button {
             color: #fff;
             padding: 15px 25px;
@@ -58,9 +58,6 @@
                 </li>
                 <li class='nav-item'>
                     <a class='nav-link active' aria-current= 'page' href='enroll-history.php'>Enroll History  </a>
-                </li>
-                <li class='nav-item'>
-                    <a class='nav-link active' aria-current= 'page' href='my-profile.php'>My Profile  </a>
                 </li>
                 <li class='nav-item'>
                     <a class='nav-link active' aria-current= 'page' href='my-profile.php'>My Profile  </a>

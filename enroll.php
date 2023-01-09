@@ -194,33 +194,30 @@
 
       </div>
 
-
-
-
-
     </div>
     </div>
     <?php include('includes/footer.php'); ?>
     <script src="assets/js/jquery-1.11.1.js"></script>
     <script src="assets/js/bootstrap.js"></script>
     <script>
-      function courseAvailability() {
-        $("#loaderIcon").show();
-        jQuery.ajax({
-          url: "check_availability.php",
-          data: 'cid=' + $("#course").val(),
-          type: "POST",
-          success: function (data) {
-            $("#course-availability-status1").html(data);
-            $("#loaderIcon").hide();
-          },
-          error: function () { }
-        });
-      }
+        function courseAvailability() {
+            $("#loaderIcon").show();
+            jQuery.ajax({
+                url: "check_availability.php",
+                data: 'cid=' + $("#course").val(),
+                type: "POST",
+                success: function (data) {
+                    $("#course-availability-status1").html(data);
+                    $("#loaderIcon").hide();
+                },
+                error: function () {
+                }
+            });
+        }
     </script>
 
 
-  </body>
-
-  </html>
+    </body>
+    </html>
 <?php } ?>
+
