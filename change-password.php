@@ -4,9 +4,8 @@ include('includes/config.php');
 if (strlen($_SESSION['login']) === 0) {
   header('location:index.php');
 } else {
-  date_default_timezone_set('Asia/Kolkata');
+  date_default_timezone_set('Asia/Phnom_Penh'); //Set ambodia timezone for display on page
   $currentTime = date('d-m-Y h:i:s A', time());
-
 
   if (isset($_POST['submit'])) {
     $sql = mysqli_query($bd, "SELECT password FROM  students where password='" . md5($_POST['cpass']) . "' && studentRegno='" . $_SESSION['login'] . "'");
